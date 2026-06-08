@@ -51,6 +51,10 @@ export default function LeagueOfLegendsPage() {
           <CardTitle className="text-xl">Recruitment</CardTitle>
         </CardHeader>
         <CardContent>
+          <p className="mb-4 rounded-md border border-mcgill/30 bg-mcgill-pastel/30 px-4 py-3 font-semibold text-mcgill-vibrant">
+            These were the recruitment requirements as of Fall 2024. For updated
+            information on the current teams, join the McGill Esports Discord.
+          </p>
           <h3 className="font-semibold mb-2">Who are we looking for?</h3>
           <ul className="list-disc pl-5 mb-4">
             <li>
@@ -65,12 +69,9 @@ export default function LeagueOfLegendsPage() {
             </li>
           </ul>
           <br></br>
-          <Link
-            href="https://docs.google.com/forms/d/e/1FAIpQLSepejMZs9jCIhyNViZHiVW3EUAeQOvQBAkidZEs-oiWwg_U4g/viewform?usp=sf_link"
-            target="_blank"
-          >
+          <Link href="https://discord.com/invite/WYdBXBgY37" target="_blank">
             <Button className="bg-mcgill hover:bg-mcgill-vibrant">
-              Join Our Team
+              Join Our Discord
             </Button>
           </Link>
         </CardContent>
@@ -91,9 +92,7 @@ export default function LeagueOfLegendsPage() {
         {/* Add more ResultCards as needed */}
       </div>
 
-      <h2 className="text-2xl font-semibold mb-4">
-        Winter 2026 Roster - Main
-      </h2>
+      <h2 className="text-2xl font-semibold mb-4">Winter 2026 Roster - Main</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 mb-8">
         <CurrentRosterCard name="Jason Rao" ign="Karina#1663" role="Top" />
         <CurrentRosterCard
@@ -112,11 +111,7 @@ export default function LeagueOfLegendsPage() {
           ign="Cold Butter#bap"
           role="Support"
         />
-        <CurrentRosterCard
-          name="Luke Qian"
-          ign="rainyday#NA0"
-          role="Support"
-        />
+        <CurrentRosterCard name="Luke Qian" ign="rainyday#NA0" role="Support" />
       </div>
 
       <h2 className="text-2xl font-semibold mb-4">

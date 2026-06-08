@@ -37,6 +37,10 @@ export default function OverwatchPage() {
           <CardTitle className="text-xl">Recruitment</CardTitle>
         </CardHeader>
         <CardContent>
+          <p className="mb-4 rounded-md border border-mcgill/30 bg-mcgill-pastel/30 px-4 py-3 font-semibold text-mcgill-vibrant">
+            These were the recruitment requirements as of Fall 2024. For updated
+            information on the current teams, join the McGill Esports Discord.
+          </p>
           <h3 className="font-semibold mb-2">Who are we looking for?</h3>
           <ul className="list-disc pl-5 mb-4">
             <li>
@@ -47,9 +51,9 @@ export default function OverwatchPage() {
               We expect you to be able to scrim other teams 2-4 times per week.
             </li>
           </ul>
-          <Link href="https://forms.gle/2WmcpHag9gK6Y4ub8" target="_blank">
+          <Link href="https://discord.com/invite/WYdBXBgY37" target="_blank">
             <Button className="bg-mcgill hover:bg-mcgill-vibrant">
-              Join Our Team
+              Join Our Discord
             </Button>
           </Link>
         </CardContent>
@@ -77,9 +81,7 @@ export default function OverwatchPage() {
         </CardContent>
       </Card>
 
-      <h2 className="text-2xl font-semibold mb-4">
-        Fall 2024 Roster - Main
-      </h2>
+      <h2 className="text-2xl font-semibold mb-4">Fall 2024 Roster - Main</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
           name="eggcellent8"

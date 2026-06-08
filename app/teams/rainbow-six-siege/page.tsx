@@ -44,6 +44,10 @@ export default function RainbowSixSiegePage() {
           <CardTitle className="text-xl">Recruitment</CardTitle>
         </CardHeader>
         <CardContent>
+          <p className="mb-4 rounded-md border border-mcgill/30 bg-mcgill-pastel/30 px-4 py-3 font-semibold text-mcgill-vibrant">
+            These were the recruitment requirements as of Fall 2024. For updated
+            information on the current teams, join the McGill Esports Discord.
+          </p>
           <h3 className="font-semibold mb-2">Who are we looking for?</h3>
           <ul className="list-disc pl-5 mb-4">
             <li>
@@ -57,9 +61,9 @@ export default function RainbowSixSiegePage() {
             <li>Main roster: 3-5 nights/week availability.</li>
             <li>Substitutes: Flexible scheduling with less time commitment.</li>
           </ul>
-          <Link href="https://forms.gle/1c9ySu4KY6ykoj736" target="_blank">
+          <Link href="https://discord.com/invite/WYdBXBgY37" target="_blank">
             <Button className="bg-mcgill hover:bg-mcgill-vibrant">
-              Join Our Team
+              Join Our Discord
             </Button>
           </Link>
         </CardContent>

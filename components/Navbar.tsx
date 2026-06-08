@@ -83,7 +83,7 @@ const Navbar = () => {
           </MenubarMenu>
           <MenubarMenu>
             <Link
-              href="https://discord.com/invite/mcgillesports"
+              href="https://discord.com/invite/WYdBXBgY37"
               target="_blank"
               rel="noopener noreferrer"
               passHref

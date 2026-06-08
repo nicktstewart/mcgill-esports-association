@@ -46,6 +46,10 @@ export default function TeamPage() {
           <CardTitle className="text-xl">Recruitment</CardTitle>
         </CardHeader>
         <CardContent>
+          <p className="mb-4 rounded-md border border-mcgill/30 bg-mcgill-pastel/30 px-4 py-3 font-semibold text-mcgill-vibrant">
+            These were the recruitment requirements as of Fall 2024. For updated
+            information on the current teams, join the McGill Esports Discord.
+          </p>
           <h3 className="font-semibold mb-2">Who are we looking for?</h3>
           <ul className="list-disc pl-5 mb-4">
             <li>
@@ -59,9 +63,9 @@ export default function TeamPage() {
             <li>Main roster: 3-5 nights/week availability.</li>
             <li>Substitutes: Flexible scheduling with less time commitment.</li>
           </ul>
-          <Link href="https://forms.gle/xZRRZPrJh8Ds66Ln8" target="_blank">
+          <Link href="https://discord.com/invite/WYdBXBgY37" target="_blank">
             <Button className="bg-mcgill hover:bg-mcgill-vibrant">
-              Join Our Team
+              Join Our Discord
             </Button>
           </Link>
         </CardContent>
@@ -93,12 +97,12 @@ export default function TeamPage() {
         <CurrentRosterCard name="Mubai" ign="MMBBB" role="Support" />
       </div>
 
-      {/* 2022 */}
-      <h2 className="text-2xl font-semibold mb-4">Past Roster - 2022 Team</h2>
+      {/* 2024 */}
+      <h2 className="text-2xl font-semibold mb-4">Fall 2024 Roster</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
           name="Rayeless"
-          role="IGL, Anchor"
+          role="IGL, Anchor, Coordinator"
           icon="/apex/Rayeless.jpg"
         />
         <TeamMemberCard
@@ -107,19 +111,18 @@ export default function TeamPage() {
           icon="/apex/HogMyNinja.jpg"
         />
         <TeamMemberCard
-          name="FooGiGo"
+          name="Freddy Fazbear"
           role="Support"
-          icon="/apex/FooGiGo.jpg"
+          icon="/apex/Freddy.jpg"
         />
-        <TeamMemberCard
-          name="Encentivus"
-          role="Coordinator"
-          icon="/apex/Encentivus.jpg"
-        />
+        <TeamMemberCard name="Rao" role="Sub, Coach" icon="/apex/Rao.jpg" />
+        <TeamMemberCard name="MMBBB" role="Sub" icon="/apex/MMBBB.jpg" />
       </div>
 
       {/* 2023 */}
-      <h2 className="text-2xl font-semibold mb-4">Past Roster - 2023 Team</h2>
+      <h2 className="text-2xl font-semibold mb-4 pt-4">
+        Past Roster - 2023 Team
+      </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
           name="dirtydib"
@@ -149,14 +152,14 @@ export default function TeamPage() {
         />
       </div>
 
-      {/* 2024 */}
-      <h2 className="text-2xl font-semibold mb-4">
-        Fall 2024 Roster
+      {/* 2022 */}
+      <h2 className="text-2xl font-semibold mb-4 pt-4">
+        Past Roster - 2022 Team
       </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
           name="Rayeless"
-          role="IGL, Anchor, Coordinator"
+          role="IGL, Anchor"
           icon="/apex/Rayeless.jpg"
         />
         <TeamMemberCard
@@ -165,12 +168,15 @@ export default function TeamPage() {
           icon="/apex/HogMyNinja.jpg"
         />
         <TeamMemberCard
-          name="Freddy Fazbear"
+          name="FooGiGo"
           role="Support"
-          icon="/apex/Freddy.jpg"
+          icon="/apex/FooGiGo.jpg"
         />
-        <TeamMemberCard name="Rao" role="Sub, Coach" icon="/apex/Rao.jpg" />
-        <TeamMemberCard name="MMBBB" role="Sub" icon="/apex/MMBBB.jpg" />
+        <TeamMemberCard
+          name="Encentivus"
+          role="Coordinator"
+          icon="/apex/Encentivus.jpg"
+        />
       </div>
     </div>
   );
