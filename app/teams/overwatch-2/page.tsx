@@ -65,7 +65,21 @@ export default function OverwatchPage() {
         {/* Add more ResultCards as needed */}
       </div>
 
-      <h2 className="text-2xl font-semibold mb-4">Main Roster 2023</h2>
+      <Card className="mb-8">
+        <CardHeader>
+          <CardTitle className="text-xl">Winter 2026 Roster</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p>
+            There is no Winter 2026 Overwatch 2 team listed for McGill Esports.
+            The roster below is kept as the Fall 2024 roster.
+          </p>
+        </CardContent>
+      </Card>
+
+      <h2 className="text-2xl font-semibold mb-4">
+        Fall 2024 Roster - Main
+      </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
           name="eggcellent8"
@@ -95,7 +109,9 @@ export default function OverwatchPage() {
         {/* Add more TeamMemberCards as needed */}
       </div>
 
-      <h2 className="text-2xl font-semibold mb-4 pt-4">Reserves 2023</h2>
+      <h2 className="text-2xl font-semibold mb-4 pt-4">
+        Fall 2024 Roster - Reserves
+      </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard name="Roman" role="DPS" icon="/overwatch-2/Roman.jpg" />
         <TeamMemberCard

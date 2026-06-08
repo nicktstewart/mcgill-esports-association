@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import ResultCard from "@/components/Cards/ResultCard";
 import TeamMemberCard from "@/components/Cards/TeamMemberCard";
+import CurrentRosterCard from "@/components/Cards/CurrentRosterCard";
 
 export default function LeagueOfLegendsPage() {
   return (
@@ -90,7 +91,72 @@ export default function LeagueOfLegendsPage() {
         {/* Add more ResultCards as needed */}
       </div>
 
-      <h2 className="text-2xl font-semibold mb-4">CLOL A 2023</h2>
+      <h2 className="text-2xl font-semibold mb-4">
+        Winter 2026 Roster - Main
+      </h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 mb-8">
+        <CurrentRosterCard name="Jason Rao" ign="Karina#1663" role="Top" />
+        <CurrentRosterCard
+          name="Ziyad Bouslama"
+          ign="Hazeux#NA1"
+          role="Jungle"
+        />
+        <CurrentRosterCard name="Leyang Liu" ign="Peshols#Pesh" role="Mid" />
+        <CurrentRosterCard
+          name="Maximilian Mayerhofer"
+          ign="Arcricea#nya"
+          role="ADC"
+        />
+        <CurrentRosterCard
+          name="Junho Jin"
+          ign="Cold Butter#bap"
+          role="Support"
+        />
+        <CurrentRosterCard
+          name="Luke Qian"
+          ign="rainyday#NA0"
+          role="Support"
+        />
+      </div>
+
+      <h2 className="text-2xl font-semibold mb-4">
+        Winter 2026 Roster - Academy
+      </h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 mb-8">
+        <CurrentRosterCard
+          name="William Nobileau"
+          ign="FeatherSlash#NA1"
+          role="Top"
+        />
+        <CurrentRosterCard
+          name="aidan"
+          ign="Pirate Slopware#ahoy"
+          role="Jungle"
+        />
+        <CurrentRosterCard name="Colin McDonel" ign="Grape#MBTA" role="Mid" />
+        <CurrentRosterCard
+          name="Weishi Li"
+          ign="Alune Rifle Pls#NA1"
+          role="ADC"
+        />
+        <CurrentRosterCard
+          name="Emily Li"
+          ign="Princess Kitty#Purr"
+          role="Support"
+        />
+        <CurrentRosterCard
+          name="Jean-Martin Huaman"
+          ign="JMarH#LLL"
+          role="ADC"
+        />
+        <CurrentRosterCard
+          name="Bobby Bodie"
+          ign="smite1sbetter#NA1"
+          role="Support"
+        />
+      </div>
+
+      <h2 className="text-2xl font-semibold mb-4">Fall 2024 Roster - CLOL A</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
           name="Hazeux"
@@ -140,7 +206,9 @@ export default function LeagueOfLegendsPage() {
         {/* Add more TeamMemberCards as needed */}
       </div>
 
-      <h2 className="text-2xl font-semibold mb-4 pt-4">CLOL B 2023</h2>
+      <h2 className="text-2xl font-semibold mb-4 pt-4">
+        Fall 2024 Roster - CLOL B
+      </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
           name="FeatherSlash"
@@ -185,7 +253,9 @@ export default function LeagueOfLegendsPage() {
         {/* Add more TeamMemberCards as needed */}
       </div>
 
-      <h2 className="text-2xl font-semibold mb-4 pt-4">CLOL C 2023</h2>
+      <h2 className="text-2xl font-semibold mb-4 pt-4">
+        Fall 2024 Roster - CLOL C
+      </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
           name="La1n"
@@ -225,7 +295,9 @@ export default function LeagueOfLegendsPage() {
         {/* Add more TeamMemberCards as needed */}
       </div>
 
-      <h2 className="text-2xl font-semibold mb-4 pt-4">CLOL D 2023</h2>
+      <h2 className="text-2xl font-semibold mb-4 pt-4">
+        Fall 2024 Roster - CLOL D
+      </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
           name="Chowder"
@@ -260,7 +332,9 @@ export default function LeagueOfLegendsPage() {
         {/* Add more TeamMemberCards as needed */}
       </div>
 
-      <h2 className="text-2xl font-semibold mb-4 pt-4">CLOL G 2023</h2>
+      <h2 className="text-2xl font-semibold mb-4 pt-4">
+        Fall 2024 Roster - CLOL G
+      </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
           name="Súp lươn Nghệ An"

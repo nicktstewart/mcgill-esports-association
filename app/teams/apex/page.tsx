@@ -1,4 +1,5 @@
 import ResultCard from "@/components/Cards/ResultCard";
+import CurrentRosterCard from "@/components/Cards/CurrentRosterCard";
 import TeamMemberCard from "@/components/Cards/TeamMemberCard";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -81,8 +82,19 @@ export default function TeamPage() {
         {/* Add more ResultCards as needed */}
       </div>
 
+      <h2 className="text-2xl font-semibold mb-4">Winter 2026 Roster</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 mb-8">
+        <CurrentRosterCard name="Jad" ign="hach" role="IGL / Entry Frag" />
+        <CurrentRosterCard
+          name="Chris"
+          ign="Freddy Fazbear"
+          role="Secondary Frag"
+        />
+        <CurrentRosterCard name="Mubai" ign="MMBBB" role="Support" />
+      </div>
+
       {/* 2022 */}
-      <h2 className="text-2xl font-semibold mb-4">2022 Team</h2>
+      <h2 className="text-2xl font-semibold mb-4">Past Roster - 2022 Team</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
           name="Rayeless"
@@ -107,7 +119,7 @@ export default function TeamPage() {
       </div>
 
       {/* 2023 */}
-      <h2 className="text-2xl font-semibold mb-4">2023 Team</h2>
+      <h2 className="text-2xl font-semibold mb-4">Past Roster - 2023 Team</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
           name="dirtydib"
@@ -138,7 +150,9 @@ export default function TeamPage() {
       </div>
 
       {/* 2024 */}
-      <h2 className="text-2xl font-semibold mb-4">2024 Split 1 Team</h2>
+      <h2 className="text-2xl font-semibold mb-4">
+        Fall 2024 Roster
+      </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
           name="Rayeless"

@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import ResultCard from "@/components/Cards/ResultCard";
 import TeamMemberCard from "@/components/Cards/TeamMemberCard";
+import CurrentRosterCard from "@/components/Cards/CurrentRosterCard";
 
 export default function ValorantPage() {
   return (
@@ -59,7 +60,70 @@ export default function ValorantPage() {
         </CardContent>
       </Card>
 
-      <h2 className="text-2xl font-semibold mb-4">2023 Team</h2>
+      <h2 className="text-2xl font-semibold mb-4">
+        Winter 2026 Roster - Red
+      </h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 mb-8">
+        <CurrentRosterCard
+          name="Alexander Lesiuk"
+          ign="B0sBaby#BOSS"
+          role="Duelist"
+        />
+        <CurrentRosterCard
+          name="Alex Zhang"
+          ign="path#803"
+          role="Initiator/Flex"
+        />
+        <CurrentRosterCard
+          name="Benjamin Bonaccorsi"
+          ign="Benobi1Kenobi1#7291"
+          role="Flex"
+        />
+        <CurrentRosterCard
+          name="Alexandre Milland"
+          ign="argon#1901"
+          role="Controller"
+        />
+        <CurrentRosterCard
+          name="Mark Yang"
+          ign="Mkkkkkkk#KKKKK"
+          role="Sentinel"
+        />
+      </div>
+
+      <h2 className="text-2xl font-semibold mb-4">
+        Winter 2026 Roster - White
+      </h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 mb-8">
+        <CurrentRosterCard
+          name="Sammi Lai"
+          ign="Slaykout"
+          role="Controller/Duelist"
+        />
+        <CurrentRosterCard
+          name="Rafiq Medjiba"
+          ign="rafisick"
+          role="Initiator/IGL"
+        />
+        <CurrentRosterCard name="Chris Chen" ign="Dogoflty" role="Duelist" />
+        <CurrentRosterCard
+          name="Michael Ha"
+          ign="Tsunami"
+          role="Duelist/Controller"
+        />
+        <CurrentRosterCard
+          name="erika ryan"
+          ign="akirer"
+          role="Sentinel/Smokes"
+        />
+        <CurrentRosterCard
+          name="Ian Ma"
+          ign="Dynamo"
+          role="Analyst/Sub (Flex)"
+        />
+      </div>
+
+      <h2 className="text-2xl font-semibold mb-4">Fall 2024 Roster</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard name="Jay" role="" icon="/valorant/Jay.jpg" />
         <TeamMemberCard name="lilho" role="" icon="/valorant/lilho.jpg" />

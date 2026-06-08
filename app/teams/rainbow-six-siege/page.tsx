@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import ResultCard from "@/components/Cards/ResultCard";
 import TeamMemberCard from "@/components/Cards/TeamMemberCard";
+import CurrentRosterCard from "@/components/Cards/CurrentRosterCard";
 
 export default function RainbowSixSiegePage() {
   return (
@@ -99,7 +100,26 @@ export default function RainbowSixSiegePage() {
         {/* Add more ResultCards as needed */}
       </div>
 
-      <h2 className="text-2xl font-semibold mb-4">Team Members</h2>
+      <h2 className="text-2xl font-semibold mb-4">Winter 2026 Roster</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 mb-8">
+        <CurrentRosterCard
+          name="braxton"
+          ign="Joyuss"
+          role="Flex support"
+          icon="/rainbow-six-siege/Joyuss.png"
+        />
+        <CurrentRosterCard name="john" ign="Burger" role="Hard support" />
+        <CurrentRosterCard
+          name="kai"
+          ign="kai-kea"
+          role="Entry frag"
+          icon="/rainbow-six-siege/kai-kea.png"
+        />
+        <CurrentRosterCard name="Ziyuan" ign="king" role="Entry flex" />
+        <CurrentRosterCard name="er wen" ign="RWN" role="Entry flex" />
+      </div>
+
+      <h2 className="text-2xl font-semibold mb-4">Winter 2025 Roster</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
           name="Mori"
